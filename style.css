@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400px;
+}
+@media (min-width: 700px) {
+  .closebtn {
+    display: none;
+  }
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -25px;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.9s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+/* header  */
+.bg-primary1 {
+  background-color: #008ef4;
+}
+.w-input {
+  width: 330px;
+}
+.input-bgcolor {
+  background-color: #6ac0ff !important;
+}
+input::-webkit-input-placeholder {
+  color: white !important;
+}
+input[type="text"]:focus {
+  border: none;
+  box-shadow: none;
+}
+.icon-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+/* left section */
+.left-section-content ul li {
+  list-style: none;
+}
+/* right section  */
+.right-section-bg {
+  background-color: #eef1fc;
+  min-height: 850px;
+}
+.bg-left {
+  background-color: #eef1fc;
+}
+.btn-color {
+  background-image: linear-gradient(#05c1ff, #014782);
+}
+.icon-size {
+  font-size: 12px;
+}
+.green-radio-btn {
+  margin-bottom: 2px;
+}
+.red-radio-btn {
+  margin-bottom: 3px;
+}
+/* .card-btn {
+  position: absolute;
+  bottom: -19px;
+  left: 33%;
+} */
+@media (min-width: 500px) {
+  .card-btn {
+    position: absolute;
+    bottom: -19px;
+    left: 30%;
+  }
+}
+.right-bottom-card-icon {
+  position: absolute;
+  top: -60px;
+  left: 35%;
+}
+@media (max-width: 400px) {
+  .right-bottom-card-icon {
+    position: absolute;
+    bottom: -19px;
+    left: 30%;
+  }
+}
+.card-center-subtract {
+  position: absolute;
+  bottom: 35px;
+  left: 34px;
+}
+.card-center-vector {
+  position: absolute;
+  bottom: 42px;
+  left: 53px;
+}
+.card-center-subtract-1 {
+  position: absolute;
+  bottom: 40px;
+  left: 39px;
+}
+.card-center-subtract-2 {
+  position: absolute;
+  top: 42px;
+  right: 40px;
+}
+.card-center-vector-3 {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+}
+.card-margin {
+  margin-bottom: 5rem;
+}
