@@ -1,9 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
-  font-family: "Rubik", sans-serif;
-  font-weight: 400px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
 }
 .menu-toggle{
   cursor: pointer;
@@ -11,7 +10,6 @@
 .sidebar {
   height: 100%;
   width: 0;
-  
   background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
@@ -35,45 +33,41 @@
   display: block;
   transition: 0.3s;
 }
-
 .sidebar a:hover {
   color: #f1f1f1;
 }
-
-.content{
+.main{
   width: 100%;
   flex: 1;
 }
-
-.openbtn {
+/* .openbtn {
   font-size: 20px;
   cursor: pointer;
   background-color: #111;
   color: white;
   padding: 10px 15px;
   border: none;
-}
+} */
 .closebtn{
   display: none !important;
 }
-
-.openbtn:hover {
+/* .openbtn:hover {
   background-color: #444;
-}
-
+} */
+/* 
 #main {
   transition: margin-left 0.5s;
   padding: 16px;
-}
+} */
 
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
   .sidebar {
     padding-top: 15px;
   }
   .sidebar a {
     font-size: 18px;
   }
-}
+} */
 /* header  */
 .bg-primary1 {
   background-color: #008ef4;
@@ -97,17 +91,17 @@ input[type="text"]:focus {
   border-radius: 50%;
 }
 /* left section */
-.left-section-content ul li {
+/* .left-section-content ul li {
   list-style: none;
-}
+} */
 /* right section  */
 .right-section-bg {
   background-color: #eef1fc;
   min-height: 850px;
 }
-.bg-left {
+/* .bg-left {
   background-color: #eef1fc;
-}
+} */
 .btn-color {
   background-image: linear-gradient(#05c1ff, #014782);
 }
@@ -120,30 +114,30 @@ input[type="text"]:focus {
 .red-radio-btn {
   margin-bottom: 3px;
 }
-/* .card-btn {
+.card-btn {
   position: absolute;
-  bottom: -19px;
-  left: 33%;
-} */
-@media (min-width: 500px) {
+  bottom: -16px;
+  left: 30%;
+}
+/* @media (min-width: 500px) {
   .card-btn {
     position: absolute;
     bottom: -19px;
     left: 30%;
   }
-}
+}  */
 .right-bottom-card-icon {
   position: absolute;
   top: -60px;
   left: 35%;
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .right-bottom-card-icon {
     position: absolute;
     bottom: -19px;
     left: 30%;
   }
-}
+} */
 .card-center-subtract {
   position: absolute;
   bottom: 35px;
